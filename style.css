@@ -129,8 +129,11 @@ ul {
   cursor: default;
 }
 .contact-list {
+  font-family: "Helvetica", sans-serif;
+  font-style: normal;
+  font-weight: 400;
   width: 780px;
-  font-size: 24px;
+  font-size: 22px;
   height: 80px;
   display: flex;
   flex-direction: column;
