@@ -1,0 +1,177 @@
+@font-face {
+  font-family: "Helvetica";
+  src: local("Helvetica"), local("Helvetica-Regular"), local("Helvetica Regular"), font-url("./fonts/Helvetica.ttf") format("ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+.wrapper {
+  max-width: 1200px;
+  margin: auto;
+}
+.header, .footer {
+  background-color: #1e453e;
+  background-image: linear-gradient(314deg, #1e453e 0%, #182c25 74%);
+  height: 140px;
+}
+ul {
+  list-style-type: none;
+}
+.header .wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  display: block;
+  font-family: "Helvetica", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 42px;
+  text-decoration: none;
+  color: #F6FBF4;
+  margin-top: 24px;
+  padding: 20px 20px;
+  letter-spacing: 0.06em;
+}
+.navlist {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 420px;
+  padding-top: 33px;
+}
+.navlist li {
+  font-family: "Helvetica", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: #F6FBF4;
+  cursor: pointer;
+  padding: 10px 20px;
+}
+.main-portrait {
+  padding: 50px 20px;
+}
+.main-portrait img {
+  width: 680px;
+}
+.main-page {
+  background-color: #F6FBF4;
+  height: 800px;
+}
+.main-page .wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-content {
+  font-family: "Helvetica", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #1f2527;
+  text-align: justify;
+  padding-right: 20px;
+  display: flex;
+  flex-direction: column;
+  cursor: default;
+}
+.intro{
+  font-size: 33px;
+  font-weight: 600;
+  margin: 0;
+}
+.who {
+  font-style: italic;
+  font-size: 16px;
+}
+.desc {
+  font-size: 18px;
+  margin: 0;
+}
+.main-content a {
+  display: block;
+  color: #1e453e;
+  margin: 1em 0;
+  display: inline-block;
+}
+.button-primary {
+  align-self: center;
+  padding: 15px 30px;
+  font-weight: 600;
+  font-size: 18px;
+  color: #F6FBF4;
+  background-color: #1e453e;
+  border-radius: 30px;
+  border-style: none;
+  cursor: pointer;
+  margin: 0;
+}
+.footer {
+  height: 280px;
+  color: #F6FBF4;
+}
+.footer .wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.contact-head {
+  font-family: "Helvetica", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 34px;
+  letter-spacing: 0.06em;
+  padding-top: 20px;
+  cursor: default;
+}
+.contact-list {
+  width: 780px;
+  font-size: 24px;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0;
+  padding-left: 85px;
+}
+
+#email {
+  background-image: url(./svg/email.svg);
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+}
+#github {
+  background-image: url(./svg/github.svg);
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+}
+#linkedin {
+  background-image: url(./svg/linkedin.svg);
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+}
+#telegram {
+  background-image: url(./svg/telegram.svg);
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+}
+
+.contact-list a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+}
+
+.contact-item {
+  padding-left: 10px;
+}

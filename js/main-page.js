@@ -11,8 +11,9 @@ document.addEventListener('DOMContentLoaded', () => {
           <h1 class="intro">Hello, my name is Ilya Tyupo</h1>
           <p class="who">Cybersecurity graduate (Master's degree)</p>
           <p class="desc">
-            I am a fast learning junior programmer. Currently I've been studying web frontend, but I'm always open for something new. <b><a href="#">Check out my projects and skills!</a></b>
+            I am a fast learning junior programmer. Currently I've been studying web frontend, but I'm always open for something new.
           </p>
+          <b><a href="#">Check out my projects and skills!</a></b></br>
           <button class="button-primary">Get in touch</button>
         </div>
       </div>
