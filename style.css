@@ -65,8 +65,10 @@ ul {
 .main-portrait img {
   width: 680px;
 }
-.main-page {
+.main-page, .about-me {
   background-color: #F6FBF4;
+}
+.main-page {
   height: 800px;
 }
 .main-page .wrapper {
@@ -100,13 +102,14 @@ ul {
   margin: 0;
 }
 .main-content a {
-  display: block;
-  color: #1e453e;
   margin: 1em 0;
+}
+.main-content a, .item-main a {
+  color: #1e453e;
   display: inline-block;
   transition-duration: 1s;
 }
-.main-content a:hover {
+.main-content a:hover, .item-main a:hover {
   color: #ff973b;
 }
 .button-primary {
@@ -196,4 +199,41 @@ ul {
 }
 .contact-list a:hover > .contact-item {
   box-shadow: inset 0 -2px 0 0 #F6FBF4;
+}
+.category, .category-list, h4, .item-desc p {
+  margin: 0;
+  font-family: "Helvetica", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #1f2527;
+  text-align: justify;
+}
+h2 {
+  font-size: 30px;
+  font-weight: 600;
+  padding: 20px;
+  padding-bottom: 0;
+}
+h4, .item-desc p {
+  font-size: 18px;
+  padding-top: 10px;
+}
+h4 {
+  padding-top: 0;
+  font-weight: 600;
+}
+.category-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 20px;
+}
+.item-desc {
+  padding-left: 20px;
+}
+.category-item:last-child {
+  padding-bottom: 20px;
+}
+.item-img img {
+  border-radius: 10px;
 }
