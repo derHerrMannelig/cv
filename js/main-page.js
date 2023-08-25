@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
           <p class="desc">
             I am a fast learning junior programmer. Currently I've been studying web frontend, but I'm always open for something new.
           </p>
-          <b><a href="./skills.html">Check out my projects and skills!</a></b></br>
+          <b><a href="./skills.html">Check out my projects and skills!</a></b>
           <button class="button-primary" onclick="location.href='#footer'">Get in touch</button>
         </div>
       </div>

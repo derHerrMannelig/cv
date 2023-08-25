@@ -103,6 +103,7 @@ ul {
 }
 .main-content a {
   margin: 1em 0;
+  font-size: 18px;
 }
 .about-me {
   cursor: default;
@@ -128,6 +129,7 @@ ul {
   border-style: none;
   cursor: pointer;
   margin: 0;
+  margin-top: 5px;
   transition-duration: 1s;
 }
 .button-primary:hover {
@@ -259,5 +261,44 @@ html {
   }
   .main-portrait {
     padding-top: 65px;
+  }
+}
+@media (max-width: 1023px) {
+
+  .main-page .wrapper {
+    flex-direction: column-reverse;
+  }
+  .main-content, .main-portrait {
+    padding: 20px;
+    margin: 20px;
+  }
+  .main-content {
+    padding-bottom: 0px;
+    margin: 0;
+  }
+  .main-portrait img {
+    width: 600px;
+  }
+  .main-page {
+    height: 967px;
+  }
+  .footer {
+    height: 350px;
+  }
+  .contact-list {
+    flex-wrap: nowrap;
+    margin: 0;
+    height: 200px;
+    width: 400px;
+    padding-left: 40px;
+  }
+  .who {
+    font-size: 18px;
+  }
+  .desc, .button-primary, .main-content a {
+    font-size: 20px;
+  }
+  .item-desc {
+    padding-right: 20px;
   }
 }
