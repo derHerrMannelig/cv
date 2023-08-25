@@ -104,11 +104,15 @@ ul {
 .main-content a {
   margin: 1em 0;
 }
+.about-me {
+  cursor: default;
+}
 .main-content a, .item-main a {
   color: #1e453e;
   display: inline-block;
   transition-duration: 1s;
   font-weight: 600;
+  cursor: pointer;
 }
 .main-content a:hover, .item-main a:hover {
   color: #ff973b;
