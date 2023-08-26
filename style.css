@@ -60,10 +60,11 @@ ul {
   color: #ff973b;
 }
 .main-portrait {
-  padding: 60px 20px;
+  padding: 90px 20px;
+  padding-right: 80px;
 }
 .main-portrait img {
-  width: 680px;
+  width: 620px;
 }
 .main-page, .about-me {
   background-color: #F6FBF4;
@@ -89,7 +90,7 @@ ul {
   cursor: default;
 }
 .intro{
-  font-size: 33px;
+  font-size: 28px;
   font-weight: 600;
   margin: 0;
 }
@@ -218,7 +219,7 @@ ul {
   text-align: justify;
 }
 h2 {
-  font-size: 30px;
+  font-size: 28px;
   font-weight: 600;
   padding: 20px;
   padding-bottom: 0;
@@ -261,6 +262,7 @@ html {
   }
   .main-portrait {
     padding-top: 65px;
+    padding-bottom: 65px;
   }
 }
 @media (max-width: 1023px) {
